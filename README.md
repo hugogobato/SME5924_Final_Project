@@ -3,7 +3,7 @@
 Este repositório contém o trabalho final desenvolvido para a disciplina SME5924 – Processos Dinâmicos em Redes Complexas, ministrada na Universidade de São Paulo (USP).
 
 **Alunos:**
-*   Hugo Gorbato Souto
+*   Hugo Gobato Souto
 *   Tatiana Mein
 
 **Professor:**
