@@ -19,11 +19,11 @@ Este repositório está organizado para apresentar de forma clara e detalhada to
 
 Este documento é o nosso relatório final. Ele apresenta uma descrição detalhada do trabalho realizado, incluindo:
 
-*   **Revisão de Literatura:** Uma análise aprofundada dos métodos de amostragem para a construção de redes ecológicas, com foco nas abordagens existentes e seus desafios.
+*   **Revisão de Literatura:** Uma análise minuciosa dos métodos de amostragem para a construção de redes ecológicas, com foco nas abordagens existentes e seus desafios.
 *   **Metodologia:** Detalhes sobre a abordagem utilizada para recriar e aplicar o modelo bayesiano proposto por Young et al. (2021).
 *   **Resultados e Análise:** Apresentação dos resultados obtidos a partir de nossos experimentos, seguidos de uma análise crítica e suas implicações.
 
-Optamos por escrever o relatório em inglês, conforme solicitado pelo professor, para simular um formato de artigo científico. Esta escolha visa também aprimorar nossas habilidades de escrita acadêmica na língua predominante para publicações científicas relevantes na área.
+Optamos por escrever o relatório em inglês para simular um formato de papercientífico, conforme solicitado pelo professor. Esta escolha visa também aprimorar nossas habilidades de escrita acadêmica na língua predominante para publicações científicas relevantes na área.
 
 ### 📁 `Notebooks_Work_In_Progress`
 
@@ -36,7 +36,7 @@ Os principais documentos e etapas aqui incluem:
     *   `eco-foodweb-baydry.txt` e `eco-foodweb-baywet.txt`: Dados de redes tróficas empíricas de pântanos de ciprestes no sul da Flórida, utilizados para a aplicação do método em um novo contexto.
 
 2.  **Reconstrução do Método Bayesiano de Young et al. (2021) do Zero:**
-    *   `Full_code_reconstruction_of_paper.ipynb`: Este notebook é central para a nossa compreensão do modelo. Nele, recriamos o método bayesiano proposto por Young et al. (2021) **fórmula por fórmula, passo a passo**. A motivação para essa reconstrução minuciosa é **garantir um entendimento profundo e completo do modelo proposto**. Ao reimplementar cada equação e cada etapa algorítmica, somos capazes de:
+    *   `Full_code_reconstruction_of_paper.ipynb`: Este notebook é central para a nossa compreensão do modelo. Nele, recriamos o método bayesiano proposto por Young et al. (2021) fórmula por fórmula, passo a passo. A motivação para essa reconstrução minuciosa é garantir um entendimento profundo e completo do modelo proposto. Ao reimplementar cada equação e cada etapa algorítmica, somos capazes de:
         *   **Validar a Compreensão:** Confirmar que interpretamos corretamente as bases teóricas e estatísticas do modelo.
         *   **Identificar Sensibilidades:** Compreender como cada componente do modelo (priors, likelihoods, etc.) influencia os resultados finais.
         *   **Facilitar Adaptações:** A capacidade de construir o modelo do zero nos permite, posteriormente, adaptá-lo e estendê-lo para diferentes tipos de redes ou problemas, como feito na aplicação a redes tróficas.
